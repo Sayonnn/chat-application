@@ -1,0 +1,45 @@
+.button{
+    padding:8px 16px;
+    font-size:20px;
+    border:none;
+    background: linear-gradient(to right, aqua,#2edd65);
+    border: 1px solid #383232;
+    border-radius:5px 20px 5px 20px;
+    cursor:pointer;
+    transition: .2s linear;;
+    margin:.5em;
+}
+
+.button:hover{
+    scale:1.05;
+}
+
+.backButton,.joinButton{
+    margin:.5em;
+    font-size:15px;
+    padding:4px 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    transition: .2s linear;;
+    cursor: pointer;
+}
+
+.backButton:hover, .joinButton:hover, .button:hover{
+    scale: 1.05;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 15px;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.3); /* Slightly tinted white for the glass effect */
+    backdrop-filter: blur(10px); /* Applies the blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adds a subtle border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better depth */
+}
+
+.card th{
+    min-width:100px;
+    font-size:15px;
+}
+
