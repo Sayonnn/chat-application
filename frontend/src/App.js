@@ -17,7 +17,6 @@ function App() {
 
   // handle room creation
   const handleHost = (host_name, room_name, room_password, room_state) => {
-    console.log(room_state)
     setIsPageOpen(false);
     setIsModalOpen(!isModalOpen);
     setPageComponent(null);
